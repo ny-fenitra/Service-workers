@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    transition: .5;
+}
+#dark{
+    color: beige;
+}
+#light{
+    color: #161616;
+}
+svg{
+    cursor: pointer;
+}
+body{
+    font-family: sans-serif;
+}
+div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: red;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
